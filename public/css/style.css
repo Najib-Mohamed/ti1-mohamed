@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* style de la bannier */
+.bannier{
+    height: 200px;
+    background-image: url("./../img/banniere.jpg");
+    background-position: center;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h1{
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+        width: 300px;
+        height: 80px;
+        background-color: rgba(245, 245, 220, 0.75);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 30px;
+    }
+}
