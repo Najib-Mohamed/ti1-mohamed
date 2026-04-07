@@ -16,13 +16,13 @@
         // chemin relatif (en PHP à partir de la page qui appelle)
         # include "inc/entete.php";
         ?>
-        <?php
-        // chemin absolu
-        include ROOT_PATH . "/view/inc/menu.php";
-        // chemin relatif (en PHP à partir de la page qui appelle)
-        # include "inc/menu.php";
-        ?>
     </header>
+    <?php
+    // chemin absolu
+    include ROOT_PATH . "/view/inc/menu.php";
+    // chemin relatif (en PHP à partir de la page qui appelle)
+    # include "inc/menu.php";
+    ?>
 </body>
 
 </html>

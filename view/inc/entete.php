@@ -1,3 +1,3 @@
 <div class="bannier">
-<h1>LISBON</h1>
+<h1 class="titre-entete">LISBON</h1>
 </div>

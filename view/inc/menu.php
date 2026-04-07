@@ -1,7 +1,6 @@
 <nav>
-    <a href="./" >DevPortfolio</a>
-    <button>☰</button>
-    <ul >
+    <button class="menu-toggle">☰</button>
+    <ul>
         <li><a href="./">Accueil</a></li>
         <li><a href="./?pages=geographie">geographie</a></li>
         <li><a href="./?pages=histoire">histoire</a></li>
