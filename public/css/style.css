@@ -49,6 +49,7 @@ nav {
     position: sticky;
     top: 50px;
     z-index: 100;
+
     ul {
         padding: 0;
     }
@@ -64,6 +65,7 @@ nav {
             text-decoration: none;
             font-size: 1em;
             font-weight: bold;
+            color: black;
         }
     }
 
@@ -86,7 +88,8 @@ main {
     width: 80%;
     border-radius: 10px;
     overflow: hidden;
-    height: 2000px;
+    background-color: lightgray;
+    /* height: 2000px; */
 }
 
 .titre-accueil {
@@ -94,4 +97,52 @@ main {
     color: white;
     padding: 10px;
     margin: 0;
+    text-align: center;
+}
+
+.conteneur-img-accueil {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.accueil-text-conteneur {
+    padding: 10px;
+}
+
+.accueil-text {
+    text-align: justify;
+}
+
+.gras {
+    font-weight: bold;
+}
+
+.liens-accueil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.liens-accueil {
+    list-style: none;
+
+    .wiki {
+        color: black;
+    }
+
+    a {
+        color: #A90331;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: black;
+
+    }
+}
+
+.margin-tpo {
+    margin-top: 10px;
 }
