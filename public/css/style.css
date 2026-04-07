@@ -87,32 +87,28 @@ nav {
 main {
     width: 80%;
     border-radius: 10px;
-    overflow: hidden;
     background-color: lightgray;
     /* height: 2000px; */
 }
 
-.titre-accueil {
-    background-color: #A90331;
-    color: white;
-    padding: 10px;
-    margin: 0;
-    text-align: center;
-}
-
-.conteneur-img-accueil {
+.conteneur-img {
     width: 100%;
     display: flex;
     justify-content: center;
     margin-top: 10px;
 }
 
-.accueil-text-conteneur {
+.text-conteneur {
     padding: 50px;
 }
 
-.accueil-text {
+.text-justify {
     text-align: justify;
+}
+
+.text-general {
+    font-size: 20px;
+    margin:20px 30px ;
 }
 
 .gras {
@@ -145,4 +141,16 @@ main {
 
 .margin-tpo {
     margin-top: 10px;
+}
+
+.titre {
+    font-style: italic;
+    color: white;
+    background-color: #A90331;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    font-size: 24px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
