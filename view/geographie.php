@@ -26,7 +26,7 @@
         # include "inc/menu.php";
         ?>
         <main>
-            <h1 class="titre">Binevenue sur notre site consacré à Lisbon.</h1>
+            <h1 class="titre">La capitale côtière</h1>
             <div class="conteneur-img">
                 <img src="./img/geographie.png" alt="">
             </div>

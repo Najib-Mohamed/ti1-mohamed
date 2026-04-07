@@ -26,9 +26,9 @@
         # include "inc/menu.php";
         ?>
         <main>
-            <h1 class="titre">Binevenue sur notre site consacré à Lisbon.</h1>
+            <h1 class="titre">Art et culture</h1>
             <div class="conteneur-img">
-                <img src="./img/geographie.png" alt="">
+                <img src="./img/culture.jpg" alt="">
             </div>
             <div class="text-conteneur">
                 <p class="text-justify text-general">

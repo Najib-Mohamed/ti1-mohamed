@@ -26,34 +26,36 @@
         # include "inc/menu.php";
         ?>
         <main>
-            <h1 class="titre">Binevenue sur notre site consacré à Lisbon.</h1>
+            <h1 class="titre">Pour nous contacter</h1>
             <div class="conteneur-img">
                 <img src="./img/contacts.jpg" alt="">
             </div>
             <div class="text-conteneur">
-                <h2 class="text-general">Pour nous laisser un commentaire ou pour obtenir un rensegnement complémentaire, remplissez le formulaire ci-dessous :</h2>
+                <h2 class="text-general center">Pour nous laisser un commentaire ou pour obtenir un rensegnement complémentaire, remplissez le formulaire ci-dessous :</h2>
                 <form action="submit.php" method="post">
                     <div>
-                        <label for="nom">Nom</label>
+                        <label for="nom">Nom :</label>
                         <input type="text" id="nom" name="nom" placeholder="Najib" required>
                     </div>
                     <div>
-                        <label for="prenom">Prenom</label>
+                        <label for="prenom">Prenom :</label>
                         <input type="text" id="prenom" name="prenom" placeholder="mohamed" required>
                     </div>
                     <div>
-                        <label for="ville">Ville</label>
+                        <label for="ville">Ville :</label>
                         <input type="text" id="ville" name="ville" placeholder="Lisbon" required>
                     </div>
                     <div>
-                        <label for="e-mail">E-mail</label>
+                        <label for="e-mail">E-mail :</label>
                         <input type="email" id="email" name="email" placeholder="mail@gmail.com" required>
                     </div>
                     <div>
-                        <label for="commentaire">Commentaire</label>
+                        <label for="commentaire">Commentaire :</label>
                         <textarea id="commentaire" name="commentaire" placeholder="Votre commentaire ici..." required></textarea>
                     </div>
-                    <button type="submit">Envoyer le message</button>
+                    <div class="btn-conteneur">
+                        <button class="btn-submit" type="submit">Envoyer le message</button>
+                    </div>
                 </form>
             </div>
         </main>

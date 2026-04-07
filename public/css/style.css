@@ -84,6 +84,8 @@ nav {
     }
 }
 
+/* style generale des pages */
+
 main {
     width: 80%;
     border-radius: 10px;
@@ -153,4 +155,43 @@ main {
     font-size: 24px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+}
+
+.center{
+    text-align: center;
+}
+form{
+    width: 90%;
+    margin: 0 auto;
+    div{
+        display: flex;
+        padding: 10px;
+    }
+}
+label{
+    font-size: 20px;
+    height: 30px;
+    width: 200px;
+}
+input{
+    height: 30px;
+    width: 100%;
+}
+textarea{
+    height: 80px;
+    width: 100%;
+    resize: none;
+}
+
+.btn-conteneur{
+    display: flex;
+    justify-content: center;
+}
+
+.btn-submit{
+    height: 50px;
+    width: 300px;
+    font-size: 20px;
+    border-radius: 20px;
+    cursor: pointer;
 }

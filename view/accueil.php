@@ -53,7 +53,7 @@
                     <li class="liens-accueil"><a href="./?pages=galerie">Une galerie de photographies</a></li>
                     <li class="liens-accueil"><a href="./?pages=contact">un formulaire pour nous contacter</a></li>
                     <li class="liens-accueil"><a href="./?pages=liens">Des liens vers les site partenaire</a></li>
-                    <li class="liens-accueil margin-tpo"><a class="wiki" href="">Source : Wekipédia - Ville de Lisbon</a></li>
+                    <li class="liens-accueil margin-tpo"><a class="wiki" href="https://fr.wikipedia.org/wiki/Lisbonne" >Source : Wekipédia - Ville de Lisbon</a></li>
                 </ul>
             </div>
         </main>

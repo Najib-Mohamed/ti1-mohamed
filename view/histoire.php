@@ -26,7 +26,7 @@
         # include "inc/menu.php";
         ?>
         <main>
-            <h1 class="titre">Binevenue sur notre site consacré à Lisbon.</h1>
+            <h1 class="titre">Lisbon, l'une des ville les plus ancienne du monde</h1>
             <div class="conteneur-img">
                 <img src="./img/histoire.jpg" alt="">
             </div>
