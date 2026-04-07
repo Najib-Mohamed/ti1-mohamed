@@ -3,6 +3,16 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* style du conteneur general */
+.body-contaier {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 10px;
+    margin-top: 5px;
+    position: relative;
+}
+
 /* style de la bannier */
 .bannier {
     height: 200px;
@@ -35,13 +45,20 @@ nav {
     border: black solid 2px;
     border-radius: 10px;
     background-color: lightgray;
+    height: fit-content;
+    position: sticky;
+    top: 50px;
+    z-index: 100;
     ul {
         padding: 0;
     }
+
     ul li {
         height: 50px;
-        text-align: center;
         list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
 
         a {
             text-decoration: none;
@@ -49,6 +66,12 @@ nav {
             font-weight: bold;
         }
     }
+
+    ul li:hover {
+        color: white;
+        background-color: #A90331;
+    }
+
     /* Bouton Menu Mobile */
     .menu-toggle {
         display: none;
@@ -57,4 +80,18 @@ nav {
         background: none;
         border: none;
     }
+}
+
+main {
+    width: 80%;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 2000px;
+}
+
+.titre-accueil {
+    background-color: #A90331;
+    color: white;
+    padding: 10px;
+    margin: 0;
 }

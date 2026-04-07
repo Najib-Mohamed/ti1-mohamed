@@ -17,12 +17,18 @@
         # include "inc/entete.php";
         ?>
     </header>
-    <?php
-    // chemin absolu
-    include ROOT_PATH . "/view/inc/menu.php";
-    // chemin relatif (en PHP à partir de la page qui appelle)
-    # include "inc/menu.php";
-    ?>
+    <div class="body-contaier">
+
+        <?php
+        // chemin absolu
+        include ROOT_PATH . "/view/inc/menu.php";
+        // chemin relatif (en PHP à partir de la page qui appelle)
+        # include "inc/menu.php";
+        ?>
+        <main>
+            <h1 class="titre-accueil">Binevenue sur notre site consacré à Lisbon.</h1>
+        </main>
+    </div>
 </body>
 
 </html>
