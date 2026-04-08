@@ -161,6 +161,9 @@ main {
     text-align: center;
 }
 
+
+
+/* style de la page formulaire */
 form {
     width: 90%;
     margin: 0 auto;
@@ -201,6 +204,8 @@ textarea {
     cursor: pointer;
 }
 
+
+/* style de la page galerie */
 .galerie-container {
     margin-top: 20px;
     display: flex;
@@ -220,5 +225,20 @@ textarea {
             height: auto;
         }
 
+    }
+}
+
+
+/* style de la page liens */
+.lines-containers{
+    display: flex;
+    justify-content: space-evenly;
+    ul li{
+        list-style: none;
+        text-align: center;
+        a{
+            text-decoration: none;
+            color: #A90331;
+        }
     }
 }
