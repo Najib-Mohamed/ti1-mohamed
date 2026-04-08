@@ -2,7 +2,7 @@ body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
-.active{
+.page-actuelle{
     background-color: #A90331;
     a{
         color: white;
