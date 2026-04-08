@@ -18,7 +18,7 @@
         ?>
     </header>
     <div class="body-contaier">
-        <button class="rementer"><a href="#haut-de-page">^</a></button>
+        <button class="rementer"><a href="#haut-de-page">↑</a></button>
         <?php
         // chemin absolu
         include ROOT_PATH . "/view/inc/menu.php";
