@@ -27,9 +27,6 @@
         ?>
         <main>
             <h1 class="titre">Galerie photo</h1>
-            <div class="conteneur-img">
-                <img src="./img/contacts.jpg" alt="">
-            </div>
             <div class="galerie-container">
                 <div class="img-container">
                     <img src="./img/480px_Alfama-CCBY.jpg" alt="Alfama-CCBY">
