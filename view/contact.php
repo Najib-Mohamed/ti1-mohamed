@@ -18,7 +18,6 @@
         ?>
     </header>
     <div class="body-contaier">
-
         <?php
         // chemin absolu
         include ROOT_PATH . "/view/inc/menu.php";
@@ -27,6 +26,12 @@
         ?>
         <main>
             <h1 class="titre">Pour nous contacter</h1>
+            <?php
+            // chemin absolu
+            include ROOT_PATH . "/view/inc/menu-gsm.php";
+            // chemin relatif (en PHP à partir de la page qui appelle)
+            # include "inc/menu.php";
+            ?>
             <div class="conteneur-img">
                 <img src="./img/contacts.jpg" alt="">
             </div>
@@ -60,6 +65,7 @@
             </div>
         </main>
     </div>
+    <script src="./js/script.js"></script>
 </body>
 
 </html>

@@ -18,7 +18,7 @@
         ?>
     </header>
     <div class="body-contaier">
-
+        <button class="rementer"><a href="#haut-de-page">^</a></button>
         <?php
         // chemin absolu
         include ROOT_PATH . "/view/inc/menu.php";
@@ -27,6 +27,12 @@
         ?>
         <main>
             <h1 class="titre">Binevenue sur notre site consacré à Lisbon.</h1>
+            <?php
+            // chemin absolu
+            include ROOT_PATH . "/view/inc/menu-gsm.php";
+            // chemin relatif (en PHP à partir de la page qui appelle)
+            # include "inc/menu.php";
+            ?>
             <div class="conteneur-img">
                 <img src="./img/armoiries.png" alt="">
             </div>
@@ -53,7 +59,7 @@
                     <li class="liens-accueil"><a href="./?pages=galerie">Une galerie de photographies</a></li>
                     <li class="liens-accueil"><a href="./?pages=contact">un formulaire pour nous contacter</a></li>
                     <li class="liens-accueil"><a href="./?pages=liens">Des liens vers les site partenaire</a></li>
-                    <li class="liens-accueil margin-tpo"><a class="wiki" href="https://fr.wikipedia.org/wiki/Lisbonne" >Source : Wekipédia - Ville de Lisbon</a></li>
+                    <li class="liens-accueil margin-tpo"><a class="wiki" href="https://fr.wikipedia.org/wiki/Lisbonne">Source : Wekipédia - Ville de Lisbon</a></li>
                 </ul>
             </div>
         </main>

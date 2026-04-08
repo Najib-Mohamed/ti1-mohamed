@@ -18,6 +18,7 @@
         ?>
     </header>
     <div class="body-contaier">
+        <button class="rementer"><a href="#haut-de-page">^</a></button>
 
         <?php
         // chemin absolu
@@ -27,6 +28,12 @@
         ?>
         <main>
             <h1 class="titre">Art et culture</h1>
+            <?php
+            // chemin absolu
+            include ROOT_PATH . "/view/inc/menu-gsm.php";
+            // chemin relatif (en PHP à partir de la page qui appelle)
+            # include "inc/menu.php";
+            ?>
             <div class="conteneur-img">
                 <img src="./img/culture.jpg" alt="">
             </div>
@@ -137,6 +144,7 @@
             </div>
         </main>
     </div>
+    <script src="./js/script.js"></script>
 </body>
 
 </html>

@@ -1,5 +1,8 @@
-<div class="menu-container-default">
-    <nav class="">
+<div class="menu-container-gsm">
+    <div class="menu-toggle-container">
+        <button class="menu-toggle"><span class="burguer">☰</span> menu</button>
+    </div>
+    <nav class="nav-default">
         <ul class="nav-links">
             <li><a id="accueil" href="./">Accueil</a></li>
             <li><a id="geographie" href="./?pages=geographie">geographie</a></li>
