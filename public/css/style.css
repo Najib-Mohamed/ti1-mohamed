@@ -110,7 +110,7 @@ main {
 
 .text-general {
     font-size: 20px;
-    margin:20px 30px ;
+    margin: 20px 30px;
 }
 
 .gras {
@@ -157,57 +157,68 @@ main {
     border-top-right-radius: 10px;
 }
 
-.center{
+.center {
     text-align: center;
 }
-form{
+
+form {
     width: 90%;
     margin: 0 auto;
-    div{
+
+    div {
         display: flex;
         padding: 10px;
     }
 }
-label{
+
+label {
     font-size: 20px;
     height: 30px;
     width: 200px;
 }
-input{
+
+input {
     height: 30px;
     width: 100%;
 }
-textarea{
+
+textarea {
     height: 80px;
     width: 100%;
     resize: none;
 }
 
-.btn-conteneur{
+.btn-conteneur {
     display: flex;
     justify-content: center;
 }
 
-.btn-submit{
+.btn-submit {
     height: 50px;
     width: 300px;
     font-size: 20px;
     border-radius: 20px;
     cursor: pointer;
 }
-.galerie-container{
+
+.galerie-container {
     margin-top: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 50px;
     justify-content: center;
-    div{
+
+    .img-container {
         width: 100%;
         display: flex;
         justify-content: space-evenly;
-        img{
+
+        img {
             border: solid 2px black;
+            width: 45%;
+            height: auto;
         }
+
     }
 }

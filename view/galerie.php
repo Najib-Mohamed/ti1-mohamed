@@ -31,17 +31,17 @@
                 <img src="./img/contacts.jpg" alt="">
             </div>
             <div class="galerie-container">
-                <div>
-                    <img src="./img/480px_Alfama-CCBY.jpg" alt="">
-                    <img src="./img/480px_BAIRRO_ALTO.jpg" alt="">
+                <div class="img-container">
+                    <img src="./img/480px_Alfama-CCBY.jpg" alt="Alfama-CCBY">
+                    <img src="./img/480px_BAIRRO_ALTO.jpg" alt="BAIRRO_ALTO">
                 </div>
-                <div>
-                    <img src="./img/480px_le_tram.jpg" alt="">
-                    <img src="./img/480px_Lisbon_Bridge.jpg" alt="">
+                <div class="img-container">
+                    <img src="./img/480px_le_tram.jpg" alt="le_tram">
+                    <img src="./img/480px_Lisbon_Bridge.jpg" alt="Lisbon_Bridge">
                 </div>
-                <div>
-                    <img src="./img/480px_Miradouro_de_São_Pedro_de_Alcântara.jpg" alt="">
-                    <img src="./img/480px_Praça_Luís_de_Camões_2006_Luca_Galuzzi.jpg" alt="">
+                <div class="img-container">
+                    <img src="./img/480px_Miradouro_de_São_Pedro_de_Alcântara.jpg" alt="Miradouro_de_São_Pedro_de_Alcântara">
+                    <img src="./img/480px_Praça_Luís_de_Camões_2006_Luca_Galuzzi.jpg" alt="Praça_Luís_de_Camões">
                 </div>
             </div>
         </main>
