@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>accuril</title>
+    <title>Accueil</title>
 </head>
 
 <body>
@@ -26,7 +26,7 @@
         # include "inc/menu.php";
         ?>
         <main>
-            <h1 class="titre">Binevenue sur notre site consacré à Lisbon.</h1>
+            <h1 class="titre">Binevenue sur notre site consacré à Lisbonne.</h1>
             <?php
             // chemin absolu
             include ROOT_PATH . "/view/inc/menu-gsm.php";

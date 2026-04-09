@@ -1,13 +1,13 @@
 <div class="menu-container-default">
     <nav class="">
         <ul class="nav-links">
-            <li <?php if (!isset($_GET['pages'])) echo ("class='page-actuelle'") ?>><a  id="accueil" href="./">Accueil</a></li>
-            <li <?php if (isset($_GET['pages']) && $_GET['pages'] == "geographie") echo ("class='page-actuelle'") ?>><a  id="geographie" href="./?pages=geographie">geographie</a></li>
-            <li <?php if (isset($_GET['pages']) && $_GET['pages'] == "histoire") echo ("class='page-actuelle'") ?>><a id="histoire" href="./?pages=histoire">histoire</a></li>
-            <li <?php if (isset($_GET['pages']) && $_GET['pages'] == "culture") echo ("class='page-actuelle'") ?>><a id="culture" href="./?pages=culture">culture</a></li>
-            <li <?php if (isset($_GET['pages']) && $_GET['pages'] == "galerie") echo ("class='page-actuelle'") ?>><a id="galerie" href="./?pages=galerie">galerie</a></li>
-            <li <?php if (isset($_GET['pages']) && $_GET['pages'] == "contact") echo ("class='page-actuelle'") ?>><a id="contact" href="./?pages=contact">contact</a></li>
-            <li <?php if (isset($_GET['pages']) && $_GET['pages'] == "liens") echo ("class='page-actuelle'") ?>><a id="liens" href="./?pages=liens">liens</a></li>
+            <li <?php if (!isset($_GET['p'])) echo ("class='page-actuelle'") ?>><a  id="accueil" href="./">Accueil</a></li>
+            <li <?php if (isset($_GET['p']) && $_GET['p'] == "geographie") echo ("class='page-actuelle'") ?>><a  id="geographie" href="./?p=geographie">Géographie</a></li>
+            <li <?php if (isset($_GET['p']) && $_GET['p'] == "histoire") echo ("class='page-actuelle'") ?>><a id="histoire" href="./?p=histoire">Histoire</a></li>
+            <li <?php if (isset($_GET['p']) && $_GET['p'] == "culture") echo ("class='page-actuelle'") ?>><a id="culture" href="./?p=culture">Culture</a></li>
+            <li <?php if (isset($_GET['p']) && $_GET['p'] == "galerie") echo ("class='page-actuelle'") ?>><a id="galerie" href="./?p=galerie">Galerie</a></li>
+            <li <?php if (isset($_GET['p']) && $_GET['p'] == "contact") echo ("class='page-actuelle'") ?>><a id="contact" href="./?p=contact">Contact</a></li>
+            <li <?php if (isset($_GET['p']) && $_GET['p'] == "liens") echo ("class='page-actuelle'") ?>><a id="liens" href="./?p=liens">Liens</a></li>
         </ul>
     </nav>
 </div>

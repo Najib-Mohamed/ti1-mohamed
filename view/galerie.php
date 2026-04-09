@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/lightbox.css">
+    <link rel="stylesheet" href="./dist/css/lightbox.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>galerie</title>
+    <title>Galerie</title>
 </head>
 
 <body>
@@ -38,13 +38,13 @@
             <div class="galerie-container">
                 <div class="img-container">
                     <div class="img-content">
-                        <a style="width:100%; height:100%;" href="./img/1280px_Praça_Luís_de_Camões_2006_Luca_Galuzzi.jpg" data-lightbox="galerie-set" data-title="image1">
+                        <a href="./img/1280px_Praça_Luís_de_Camões_2006_Luca_Galuzzi.jpg" data-lightbox="galerie-set" data-title="image1">
                             <img src="./img/480px_Praça_Luís_de_Camões_2006_Luca_Galuzzi.jpg" alt="Praça_Luís_de_Camões">
                         </a>
                         <span class="text-general">Praça_Luís_de_Camões</span>
                     </div>
                     <div class="img-content">
-                        <a style="width:100%; height:100%;" href="./img/1280px_BAIRRO_ALTO.jpg" data-lightbox="galerie-set" data-title="image1">
+                        <a href="./img/1280px_BAIRRO_ALTO.jpg" data-lightbox="galerie-set" data-title="image1">
                             <img src="./img/480px_BAIRRO_ALTO.jpg" alt="BAIRRO_ALTO">
                         </a>
                         <span class="text-general">BAIRRO_ALTO</span>
@@ -85,12 +85,10 @@
             </div>
         </main>
     </div>
+
+
     <script src="./js/script.js"></script>
-    <script type="module" src="./dist/js/lightbox-plus-jquery.js"></script>
-    <script type="module" src="./dist/js/lightbox-plus-jquery.min.js"></script>
-    <script type="module" src="./dist/js/lightbox-plus-jquery.min.js.map"></script>
-    <script type="module" src="./dist/js/lightbox.js"></script>
-    <script type="module" src="./dist/js/lightbox.min.js"></script>
+    <script src="./dist/js/lightbox-plus-jquery.min.js"></script>
 </body>
 
 </html>
