@@ -83,6 +83,11 @@ nav {
             font-size: 1em;
             font-weight: bold;
             color: black;
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
     }
 
@@ -95,6 +100,7 @@ nav {
 
 
 }
+
 
 .menu-container-default {
     width: 20%;
